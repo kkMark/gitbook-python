@@ -1,0 +1,35 @@
+{
+    "title": "Python的学习记录",
+    "description": "从删库到跑路！",
+
+    "language": "zh-hans",
+    "plugins": [
+
+        "expandable-chapters",
+        "search-plus",
+        "splitter", 
+        "tbfed-pagefooter",
+        "expandable-chapters-small"
+    ],
+    "pluginsConfig": {
+
+        "theme-default": {
+            "showLevel": true
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy lawayun",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "links": {
+    
+        "gitbook": false,
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "all": false
+        }
+    }
+}
