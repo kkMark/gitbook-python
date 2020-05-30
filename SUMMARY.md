@@ -11,6 +11,8 @@
   * [第一课 vim移动与选中](2-vim-bian-yi-qi/vim-one-move.md)
   * [第二课 vim命令模式](2-vim-bian-yi-qi/vim-two-command.md)
   * [第三课 末行模式扩展](2-vim-bian-yi-qi/vim-three-mohan.md)
-
+* [3 - Python的开始]()
+  * [第一课 Python简介](3.python/python-one.md)
+  * [第二课 Python变量](3.python/python-two.md)
 
 
