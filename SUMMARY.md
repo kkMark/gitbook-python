@@ -15,7 +15,4 @@
   * [第一课 Python简介](3.python/python-one.md)
   * [第二课 Python变量](3.python/python-two.md)
   * [第三课 Python的函数](3.python/python-three.md)
-  * [第四课 Python的if语句](3.python/python-four.md)
-
-
 
