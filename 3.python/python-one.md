@@ -1,4 +1,4 @@
-## Python 简介
+## 第一课 Python的简介
 
 ```python
 # python 执行的三种方式
