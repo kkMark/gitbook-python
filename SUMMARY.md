@@ -15,5 +15,6 @@
   * [第一课 Python简介](3.python/python-one.md)
   * [第二课 Python变量](3.python/python-two.md)
   * [第三课 Python的函数](3.python/python-three.md)
-  * [第四课 Python的判断语句](3.python/python-four.md)
+  * [第四课 Python的运算符](3.python/python-four.md)
+  * [第五课 Python的基本变量](3.python/python-five.md)
 
