@@ -38,7 +38,7 @@ float(number)
 | floor(x)     | 返回x的下舍整数，需要导入 math 类              |
 | max(.....)   | 返回取最大的值                                 |
 | min(.....)   | 返回取最小的值                                 |
-| modf(x)      | 返回x的小数和整数                              |
+| modf(x)      | 返回x的小数和整数，可导入 math 类              |
 | pow(x, y)    | 返回x的y次方，可导入 math 类                   |
 | round(x , y) | 返回浮点数 x 的四舍五入，显示y的位数           |
 | sqrt(x)      | 返回x的平方根，需要导入 math 类                |
