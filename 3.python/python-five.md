@@ -112,15 +112,6 @@ print(str + " world")	# 拼接字符
 | %f         | 格式化浮点型                      |
 | %p         | 用十六进制格式化变量的地址        |
 
-#### 字符串内建函数
-
-| 字符串内建函数           |                                                              |
-| ------------------------ | ------------------------------------------------------------ |
-| capitalize()             | 将字符串的第一个字符转成大写                                 |
-| center(width,  fillchar) | 用于填充左右的内容，width：字符串的长度，fillchar：填充的东西 |
-| count(str, beg, end)     | 用于搜索，从beg到end之间出现的次数，str：搜索的字段，beg：开始，end：结束 |
-
-
 
 #### List (列表)
 
@@ -139,6 +130,30 @@ print(name[1:3])			# 打印下标1-3的元素
 print(name[2:])				# 打印从下标2开始后的元素
 print(str * 2)				# 重复打印
 print(str + " world")	# 拼接字符
+
+# 新增
+names.append('names5')
+# 更新
+names[2] = '更改名字'
+# 删除
+del names[2]
+# 判断是否包含
+'name1' in names
+
+# 嵌套的概念 - 数组里面套数组
+temps = [names, numbers]
+
+# 常见的
+# 1.获取列表数量
+len(names)
+# 2.统计出现的次数
+names.count('要查找的内容')
+# 3.在指定的位置插入
+names.insert('要插入的位置（下标）', '插入的内容')
+# 4.移除数组中的某个元素
+names.remove('元素的类型')
+# 5.清空列表
+names.clear()
+# 6.复制列表
+names.copy()
 ```
-
-
