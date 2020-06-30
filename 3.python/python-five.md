@@ -113,6 +113,7 @@ print(str + " world")	# 拼接字符
 | %p         | 用十六进制格式化变量的地址        |
 
 
+
 #### List (列表)
 
 ```python
@@ -125,9 +126,9 @@ names = ["name1", "name2", "name3", "name4"]
 numbers =  [123, 345]
 
 print(names)					# 打印完整的列表
-print(name[0])				# 打印第一个元素
-print(name[1:3])			# 打印下标1-3的元素
-print(name[2:])				# 打印从下标2开始后的元素
+print(names[0])				# 打印第一个元素
+print(names[1:3])			# 打印下标1-2的元素
+print(names[2:])			# 打印从下标2开始后的元素
 print(str * 2)				# 重复打印
 print(str + " world")	# 拼接字符
 
@@ -157,3 +158,90 @@ names.clear()
 # 6.复制列表
 names.copy()
 ```
+
+
+
+#### Tuple (元组)
+
+- 元组的内容是不可变的
+
+```python
+# 元组是使用括号的
+>>> tup = ('test1', 'test2', 'test3')
+# 也可以不使用括号
+>>> tup = 'test1', 'test2', 'test3'
+
+# 单个与多个的问题
+tup = ('test')
+type(tup) # <class 'str'>
+# 加了逗号他就会变成一个元组
+tup = ('test', )
+type(tup) # <class 'tuple'>
+
+# 元组的删除只能用del，而且只能整个删除
+del tup
+
+# 元组中常用的函数
+# 1.数量
+let(tup)
+# 2.返回元组中元素最大值/最小值
+max(tup) / min(tup)
+# 3.强转，将一个list转成tuple
+tuple(list)
+```
+
+
+
+#### Dict (字典)
+
+- 字典用 {} 大括号来表示
+- 字典都有一个对应，{ key : value }
+- key 不能相同
+
+```python
+# 创建
+dict = {'name' : 'XXXX', 'age' : 18}
+ 
+# 查
+print(dict['name'])
+# 改/增，不存在的就是增加，存在就是修改
+dict['name'] = '小明'
+# 删
+del dict['name']
+del dict
+dict.clear()
+dict.pop(key)
+
+# 常用的函数
+# 1.数量
+len(dict)
+# 2.转换成str
+str(dict)
+# 3.清空
+dict.clear()
+# 4.将数组作为key赋值
+dict.fromkeys(list, '默认值，可不填')
+# 5.用于查询是否包含该字段
+dict.get('name', '如果找不到就返回这里的东西')
+# 6.判断是否存在key，返回True/False
+key in dict
+# 7.拿到所有key
+dict.keys()
+# 8.拿到所有value
+dict.values()
+# 9.追加新的字典进去
+dict.update(new_dict)
+# 10.删除指定的key
+dict.pop(key)
+# 11.随机删除字段
+dict.popitem()
+```
+
+
+
+#### set (集合)
+
+
+
+
+
