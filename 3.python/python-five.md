@@ -241,7 +241,60 @@ dict.popitem()
 
 #### set (集合)
 
+- 无序的不重复元素
+
+- 使用 {} 或 set() 创建，创建空的需要用 set ()，因为 {} 是用于创建空的字典
+
+```python
+a = set('abracadabra')
+b = set('alacazam')
 
 
+# 两个集合的运算
+# 1.显示 a 存在而 b 不存在的元素
+a - b
+# 2.显示 a、b 所有的元素
+a | b
+# 3.显示都包含有的元素
+a & b
+# 4.不同时包含于a和b的元素
+a ^ b
 
+
+# 集合的基本操作
+# 1.添加
+a.add('添加的内容')
+# 1-1.添加多个
+a.update({'添加的内容', '添加的内容'})
+# 2.删除
+a.remove('删除的内容')
+# 2-1.删除，不会有错误提示
+a.discard('删除的内容')
+# 2-2.随机删除
+a.pop()
+# 2-3.清空列表
+a.clear()
+# 3.长度
+len(a)
+# 4.拷贝
+a.copy()
+# 5.删掉两者相同的
+a.difference(b)
+# 5-1.删掉两者相同的,并赋值给a
+a.difference_update(b)
+# 6.返回多个集合相同的元素
+a.intersection(b ...)
+# 7.判断是否不包含相同的元素，True / False
+a.isdisjoint(b)
+# 8.判断 b 中是否包含 a 的所有元素 True / False
+a.issubset(b)
+# 9.判断 a 中是否包含 b 的所有元素 True / False
+a.issuperset(b)
+# 10.移除所有相同的元素
+a.symmetric_difference(b)
+# 10-1.移除所有相同的元素,并赋值给a
+a.symmetric_difference_update(b)
+# 11.合并两个集合，相同的元素只会出现一次
+a.union(b)
+```
 
