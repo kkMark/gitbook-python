@@ -17,4 +17,6 @@
   * [第三课 Python的函数](3.python/python-three.md)
   * [第四课 Python的运算符](3.python/python-four.md)
   * [第五课 Python的基本变量](3.python/python-five.md)
+  * [第六课 Python的迭代器](3.python/python-six.md)
+  * [第七课 Python的函数](3.python/python-seven.md)
 
