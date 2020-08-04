@@ -19,4 +19,6 @@
   * [第五课 Python的基本变量](3.python/python-five.md)
   * [第六课 Python的迭代器](3.python/python-six.md)
   * [第七课 Python的函数](3.python/python-seven.md)
+  * [第八课 Python的模块、数据结构](3.python/python-8.md)
+  * [第九课 Python的输入和输出](3.python/python-9.md)
 
