@@ -42,13 +42,11 @@ test(str = '测试')
 
 ```python
 # 方式1 一个*的会以元组的方式出现
-
 def test(arg1, *vartuple):
 	print(arg1, vartuple)
 	return
 
 # 方式2 有两个**的会以字典的方式出现
-
 def test(arg1, **var_dict):
 	print(arg1, vartuple)
 	return
